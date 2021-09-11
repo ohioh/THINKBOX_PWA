@@ -1,9 +1,9 @@
 
 module.exports = {
     staticFileGlobs: [
-      '/index.html',
+      '/template.html',
       '/manifest.json',
-      '/routes/',
+      '/src/routes/',
       '/assets/'
 
     ],
