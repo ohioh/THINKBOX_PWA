@@ -1,8 +1,23 @@
 import { getFiles, setupPrecaching, setupRouting } from 'preact-cli/sw';
+import { BackgroundSyncPlugin } from 'workbox-background-sync';
+import { registerRoute } from 'workbox-routing';
+import { NetworkOnly } from 'workbox-strategies';
 
-//This sets up the network-first fallback behaviour for offline users.
+const bgSyncPlugin = new BackgroundSyncPlugin('apiRequests', {
+    maxRetentionTime: 60  // retry for up to one hour (in minutes)
+});
+
+// retry failed POST requests to /api/**.json
+registerRoute(
+    /\/api\/.*\/.*\.json/,
+    new NetworkOnly({
+        plugins: [bgSyncPlugin]
+    }),
+    'POST'
+);
+
+/** Preact CLI setup */
 setupRouting();
 
-//The getFiles() function returns an Array of URLs generated at build time that should be cached for offline use.
 const urlsToCache = getFiles();
 setupPrecaching(urlsToCache);
