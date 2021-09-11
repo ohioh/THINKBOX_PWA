@@ -7,6 +7,6 @@ module.exports = {
       '/assets/'
 
     ],
-    navigateFallback: '/index.html',
+    navigateFallback: '/template.html',
     navigateFallbackWhitelist: [/^(?!.*\.js$|\/data\/).*/]
   }
