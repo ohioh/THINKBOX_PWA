@@ -22,6 +22,8 @@ Interessante Links:
 - https://tailwindcomponents.com/cheatsheet/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+## Service-Worker Strategy:
+Servic-Worker [https://developers.google.com/web/tools/workbox/modules/workbox-strategies]
 
 ## CLI Commands
 
