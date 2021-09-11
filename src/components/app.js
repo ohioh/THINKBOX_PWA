@@ -11,6 +11,9 @@ import Contact from '../routes/contact';
 import ContactSuccess from '../routes/contact-success';
 import NotFoundPage from '../routes/notfound';
 
+// Tailwind-Import for JS-Preact Framwork
+import "tailwindcss/tailwind.css"
+
 export default class App extends Component {
 
 	/** Gets fired when the route changes.
