@@ -3,6 +3,9 @@ import { Router } from 'preact-router';
 import { Provider } from '@preact/prerender-data-provider';
 import Header from './header';
 
+// Tailwind-Import for JS-Preact Framwork
+import "../tailwind.css"
+
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Blogs from '../routes/blogs';
@@ -11,8 +14,6 @@ import Contact from '../routes/contact';
 import ContactSuccess from '../routes/contact-success';
 import NotFoundPage from '../routes/notfound';
 
-// Tailwind-Import for JS-Preact Framwork
-import "../tailwind.css"
 
 export default class App extends Component {
 
