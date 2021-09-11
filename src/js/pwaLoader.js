@@ -118,6 +118,7 @@ $(function () {
         };
 
         function loadPWA() {}
-        loadJS('./js/pwa.js', loadPWA, document.body);
+        loadJS('../src/js/pwa.js', loadPWA, document.body);
+        
     }
 });
