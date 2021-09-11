@@ -13,13 +13,14 @@ Feature: Progressive Web App für eine Single Side Application mit Service Worke
 Sensoren: DHT22- Temperature und Luftfeuchtigkeit 
 Interessante Links:
 
-https://dev.to/boywithsilverwings/configuring-preact-cli-with-tailwind-css-3ckj
+- https://dev.to/boywithsilverwings/configuring-preact-cli-with-tailwind-css-3ckj
 
-https://medium.com/jslovers/netlify-preact-pwabuilder-part-1-bac9ee1224d4
+- https://medium.com/jslovers/netlify-preact-pwabuilder-part-1-bac9ee1224d4
 
-https://github.com/preactjs/preact-cli
+- https://github.com/preactjs/preact-cli
 
-https://tailwindcomponents.com/cheatsheet/
+- https://tailwindcomponents.com/cheatsheet/
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ## CLI Commands
