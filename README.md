@@ -1,6 +1,6 @@
 ## PWA_THINKBOX_BLE
 
--LINK: https://laughing-meitner-abd29f.netlify.app/
+- App:LINK: https://laughing-meitner-abd29f.netlify.app/
 
 Creator: 
 - Nabil Borkowski [ nabil-borkowski@outlook.de ] 
