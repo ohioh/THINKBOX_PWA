@@ -1,6 +1,6 @@
 {
-  "name": "blog",
-  "short_name": "blog",
+  "name": "ThinkBOX App",
+  "short_name": "TB-APP",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
