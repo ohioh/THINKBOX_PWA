@@ -3,8 +3,8 @@
 -LINK: https://laughing-meitner-abd29f.netlify.app/
 
 Creator: 
-            - Nabil Borkowski [ nabil-borkowski@outlook.de ] 
-            - Tjark Ziehm [ tjark.ziehm@ohioh.de ]
+- Nabil Borkowski [ nabil-borkowski@outlook.de ] 
+- Tjark Ziehm [ tjark.ziehm@ohioh.de ]
 
 created: 10. September 2021
 Version: 0.9
